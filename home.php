@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>FON: Prijava kolokvijuma</title>
+    <title>Fakultet organizacionih nauka: Prijava kolokvijuma</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
@@ -38,7 +38,7 @@
                                 <th>Predmet</th>
                                 <th>Katedra</th>
                                 <th>Sala</th>
-                                <th>Datum</th>
+                                <th>Datum Kolokvijuma</th>
                                 <th>Selektuj</th>
                             </tr>
                         </thead>
@@ -100,10 +100,10 @@
                                 <input type="text" name="sala" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>Datum</label>
+                                <label>Datum kolokvijuma</label>
                                 <input type="date" name="datum" class="form-control" required>
                             </div>
-                            <button type="submit" name="submit" value="zakazi" class="btn btn-success btn-block">Zakazi</button>
+                            <button type="submit" name="submit" value="zakazi" class="btn btn-success btn-block">Zakazi kolokvijum</button>
                         </form>
                     </div>
                 </div>
